@@ -1,0 +1,10 @@
+name = input("What's your name? ")
+print(f"welcome, {name}! Let's log two expenses")
+print()
+#--- first expense (item is text, amount is a number) ---
+item1 = input("First expense? ")
+amount1 = float(input("Amount? "))
+print()
+print("---------- SUMMARY ----------")
+print(f"   - {item1} : ${amount1}")
+print("-----------------------------")
